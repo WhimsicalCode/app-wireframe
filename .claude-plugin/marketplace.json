@@ -1,0 +1,15 @@
+{
+  "name": "app-wireframe",
+  "description": "Turn any app into editable Whimsical wireframes: name an app to pull its screens from Mobbin, or bring your own screenshots.",
+  "owner": {
+    "name": "Whimsical",
+    "url": "https://whimsical.com"
+  },
+  "plugins": [
+    {
+      "name": "app-wireframe",
+      "source": "./",
+      "description": "Turn any app into editable Whimsical wireframes: name an app to pull its screens from Mobbin, or bring your own screenshots."
+    }
+  ]
+}

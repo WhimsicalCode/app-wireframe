@@ -1,0 +1,6 @@
+# Run folders hold screenshots downloaded from Mobbin: keep them out of version control.
+wireframes/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/

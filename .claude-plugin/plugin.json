@@ -1,0 +1,21 @@
+{
+  "name": "app-wireframe",
+  "version": "1.0.0",
+  "description": "Turn any app into editable Whimsical wireframes: name an app to pull its screens from Mobbin, or bring your own screenshots.",
+  "author": {
+    "name": "Whimsical",
+    "url": "https://whimsical.com"
+  },
+  "homepage": "https://github.com/WhimsicalCode/app-wireframe",
+  "repository": "https://github.com/WhimsicalCode/app-wireframe",
+  "license": "MIT",
+  "keywords": [
+    "wireframes",
+    "whimsical",
+    "mobbin",
+    "ui",
+    "design",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://whimsical.com/terms/privacy"
+}

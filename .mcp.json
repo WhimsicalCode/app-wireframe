@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "whimsical": {
+      "type": "http",
+      "url": "https://mcp.whimsical.com/mcp"
+    },
+    "mobbin": {
+      "type": "http",
+      "url": "https://api.mobbin.com/mcp"
+    }
+  }
+}
