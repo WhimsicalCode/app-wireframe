@@ -14,7 +14,7 @@ and list rows are grouped, so you can drag them around and start editing right a
 Every wireframe links back to its screen on Mobbin.
 
 This is a new project, and most of it was written by coding agents. We've used it at
-Whimsical to wireframe 20 apps, but it hasn't been tested much with other agents or
+Whimsical to [wireframe 20 apps](#examples), but it hasn't been tested much with other agents or
 setups. If something breaks, please [open an issue](https://github.com/WhimsicalCode/app-wireframe/issues).
 
 ## Two ways in
@@ -53,6 +53,38 @@ right.
 
 One screen takes a few minutes. A 15-screen app takes about an hour and a fair amount
 of model usage, so try a single screen first.
+
+## Examples
+
+We ran the skill on 20 well-known iOS apps, one per category, and published the boards in
+the [Whimsical template gallery](https://whimsical.com/templates/wireframes). Each one is free
+to duplicate and edit, with every wireframe next to its screenshot and linked to the screen on
+Mobbin.
+
+| Template | Based on | Screens |
+| --- | --- | --- |
+| [Ecommerce app wireframe](https://whimsical.com/templates/ecommerce-app-wireframe) | Shop | 15 |
+| [Marketplace app wireframe](https://whimsical.com/templates/marketplace-app-wireframe) | Vinted | 15 |
+| [Food delivery app wireframe](https://whimsical.com/templates/food-delivery-app-wireframe) | Deliveroo | 15 |
+| [Grocery delivery app wireframe](https://whimsical.com/templates/grocery-delivery-app-wireframe) | Instacart | 15 |
+| [Taxi app wireframe](https://whimsical.com/templates/taxi-app-wireframe) | Bolt | 14 |
+| [Vacation rental app wireframe](https://whimsical.com/templates/vacation-rental-app-wireframe) | Airbnb | 15 |
+| [Flight booking app wireframe](https://whimsical.com/templates/flight-booking-app-wireframe) | Hopper | 15 |
+| [Restaurant reservation app wireframe](https://whimsical.com/templates/restaurant-reservation-app-wireframe) | OpenTable | 15 |
+| [Salon booking app wireframe](https://whimsical.com/templates/salon-booking-app-wireframe) | Fresha | 14 |
+| [Doctor appointment app wireframe](https://whimsical.com/templates/doctor-appointment-app-wireframe) | Zocdoc | 15 |
+| [Event ticketing app wireframe](https://whimsical.com/templates/event-ticketing-app-wireframe) | DICE | 15 |
+| [Banking app wireframe](https://whimsical.com/templates/banking-app-wireframe) | Monzo | 15 |
+| [Budget app wireframe](https://whimsical.com/templates/budget-app-wireframe) | YNAB | 14 |
+| [Chat app wireframe](https://whimsical.com/templates/chat-app-wireframe) | WhatsApp | 15 |
+| [Social media app wireframe](https://whimsical.com/templates/social-media-app-wireframe) | Instagram | 15 |
+| [Dating app wireframe](https://whimsical.com/templates/dating-app-wireframe) | Hinge | 15 |
+| [Fitness app wireframe](https://whimsical.com/templates/fitness-app-wireframe) | Fitbod | 15 |
+| [Language learning app wireframe](https://whimsical.com/templates/language-learning-app-wireframe) | Duolingo | 15 |
+| [Music streaming app wireframe](https://whimsical.com/templates/music-streaming-app-wireframe) | Spotify | 15 |
+| [To-do list app wireframe](https://whimsical.com/templates/to-do-list-app-wireframe) | Todoist | 15 |
+
+The apps belong to their makers. Whimsical isn't affiliated with any of them.
 
 ## Requirements
 
