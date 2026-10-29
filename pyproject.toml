@@ -1,7 +1,7 @@
 # Development only: the skill's scripts are standalone `uv run` scripts with inline dependencies.
 [project]
 name = "app-wireframe"
-version = "1.0.0"
+version = "1.1.0"
 description = "Agent skill that turns app screens into editable lo-fi wireframes on a Whimsical board."
 requires-python = ">=3.11"
 dependencies = []

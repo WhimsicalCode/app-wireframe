@@ -32,8 +32,8 @@ The skill only uses Mobbin's Standard Search, which doesn't spend
 
 With the Mobbin MCP you can also:
 
-- wireframe a single screen from its Mobbin link (save it to your Mobbin account
-  first) or from a description like "Spotify now playing"
+- wireframe a single screen by pasting its Mobbin link, or from a description like
+  "Spotify now playing"
 - turn one of your Mobbin collections into a board, even one that mixes several apps
 
 ### Bring your own screenshots
@@ -182,7 +182,10 @@ techniques that render well in Whimsical in
 
 `wireframes.py` and `arrange.py` work offline: the agent calls Whimsical and Mobbin
 and hands the results to the scripts. `mobbin_download.py` only fetches the image
-links Mobbin returned, and only from Mobbin's servers.
+links Mobbin returned, and only from Mobbin's servers. When you paste a screen link,
+`mobbin_link.py` reads that screen's public page on mobbin.com for the app name, the
+screen's tags and its link preview, so the agent knows what to search for. The
+screenshot itself still comes through the Mobbin MCP.
 
 ## Using Mobbin screens
 
@@ -195,7 +198,8 @@ keep `wireframes/` out of it.
 ## Privacy
 
 The skill doesn't collect anything. Your agent talks to Whimsical and Mobbin through
-their MCP servers, under their own privacy policies:
+their MCP servers, and reads the public mobbin.com page of a screen link you paste,
+under their own privacy policies:
 [Whimsical](https://whimsical.com/terms/privacy) and
 [Mobbin](https://mobbin.com/privacy).
 
@@ -209,6 +213,7 @@ skills/app-wireframe/
     wireframes.py          run progress, draft checks, grouping, links, icons, grid
     arrange.py             places dropped screenshots next to their wireframes
     mobbin_download.py     downloads and crops the Mobbin screens of a shortlist
+    mobbin_link.py         reads a pasted Mobbin link: app, screen tags, search query
     icon_index.json        icon names, aliases and descriptions for the icon search
 tests/                     tests for the scripts
 .claude-plugin/            Claude Code plugin and marketplace manifests
